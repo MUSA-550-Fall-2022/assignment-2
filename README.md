@@ -57,13 +57,15 @@ datasets and generate charts visualizing different aspects of the data.
 - **1 seaborn chart** (of any type)
   - Please include the motivation behind your choice for the type of seaborn plot used and why.
 - **3 altair plots**
-  - The following techniques should be used at least once:
+  - **Both** of the following techniques should be used at least once in these 3 charts:
     - A transformation (mean, count, binning, etc)
     - Brush selection
-    - **Extra credit**: 2-chart dashboard, where filtering of one chart cross-filters the other chart (via `transform_filter()`)
 - A short discussion (a few sentences) of the main conclusion of each chart
   (in a markdown cell below each chart). It does not need to be interesting or insightful,
   but it is good practice to always note the main conclusions so the notebook make sense after time passes.
+- **Extra credit:**: 2-chart altair dashboard,
+  - This should be **in addition to** the 3 charts above
+  - Filtering on one chart should cross-filter the other chart (via `transform_filter()`)
 
 ## Grading Guidelines
 
